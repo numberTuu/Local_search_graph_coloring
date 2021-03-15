@@ -40,7 +40,6 @@ int** ReadFile( const char* filename, int *vertex_number )
     {
       file >> aux;
       file >> n;
-      std::cout<< n << std::endl;
       arr = AllocateArray(n,n);
     }
     else if( ch == 'e' )

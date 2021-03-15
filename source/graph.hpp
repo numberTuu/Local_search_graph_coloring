@@ -55,7 +55,7 @@ class Graph
     void order_vertices(int); 
     int nextHighestDegreeVertex(int);
     bool check_if_colored(int);
-    int get_ID(int,int);
+    int get_ID(int);
     int get_color(int);
     int get_color_new(int, std::vector<Vertex>);
 public:
